@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API_EDI", "API_EDI\API_EDI.csproj", "{EB05FB91-FB28-4F9D-B3DD-189BE409D579}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api.edi", "api.edi\api.edi.csproj", "{EB05FB91-FB28-4F9D-B3DD-189BE409D579}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API_Portal", "API_Portal\API_Portal.csproj", "{5D99523D-A60A-428A-9379-CFE3F561499F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api.portal", "api.portal\api.portal.csproj", "{5D99523D-A60A-428A-9379-CFE3F561499F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workers", "Workers\Workers.csproj", "{A025C6A9-0C10-4246-BC21-883E6875030F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "worker.portal", "worker.portal\worker.portal.csproj", "{A025C6A9-0C10-4246-BC21-883E6875030F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

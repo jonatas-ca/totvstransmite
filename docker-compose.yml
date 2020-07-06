@@ -47,7 +47,7 @@ services:
  
     worker:
         build:
-            context: ./Workers
+            context: ./worker.portal
             dockerfile: Dockerfile
         networks:
             - net-totvstransmite
@@ -65,7 +65,7 @@ services:
             - postgres                    
     api:
         build:
-            context: ./api_edi
+            context: ./api.edi
             dockerfile: Dockerfile
         networks:
             - net-totvstransmite                    
@@ -92,9 +92,9 @@ services:
         volumes:
             - pgadmin:/var/lib/pgadmin
 
-    api_portal:
+    api.portal:
         build:
-            context: ./api_portal
+            context: ./api.portal
             dockerfile: Dockerfile
         networks:
             - net-totvstransmite      
@@ -105,7 +105,7 @@ services:
         ports:
             - 8081:80
         
-        container_name: api_portal
+        container_name: api.portal
         
         depends_on:
             - postgres
@@ -122,4 +122,4 @@ services:
         container_name: portal
         
         depends_on:
-            - api_portal
+            - api.portal
